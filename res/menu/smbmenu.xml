@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/show8989"
+		android:icon="@drawable/directoryup64"
+		android:orderInCategory="103"
+        android:showAsAction="ifRoom"
+		android:title="Go up" 
+		/>
+    
+	<item android:id="@+id/back8989"
+		android:icon="@drawable/back1"
+		android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+		android:title="Go" 
+    
+    />
+    
+    <item android:id="@+id/clear8989"
+        android:icon="@drawable/clearlist72x72"
+        android:orderInCategory="108"
+        android:showAsAction="ifRoom"
+        android:title="clear" 
+    
+    />
+    
+    
+    
+        <item android:id="@+id/save8989"
+        android:icon="@drawable/save2"
+        android:orderInCategory="110"
+        android:showAsAction="ifRoom"
+        android:title="backup" 
+    
+    />
+        
+        
+            <item android:id="@+id/restore8989"
+        android:icon="@drawable/restore72x72"
+        android:orderInCategory="112"
+        android:showAsAction="ifRoom"
+        android:title="restore" 
+    
+    />
+            
+                       <item android:id="@+id/testtest8989"
+        android:icon="@drawable/restore72x72"
+        android:orderInCategory="114"
+        android:showAsAction="never"
+        android:title="test000" 
+    
+    />
+                       
+                       
+	     
+</menu>
+	

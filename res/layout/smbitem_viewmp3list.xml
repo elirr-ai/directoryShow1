@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+     >
+ 
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/filenot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+   
+    
+        <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/item_icon"
+        android:text="file name"
+        android:layout_marginLeft="10dp"
+        />
+        
+      <TextView
+        android:id="@+id/date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="file date"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/name"
+		android:layout_toRightOf="@+id/item_icon"
+        />      
+       
+      <TextView
+        android:id="@+id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="file size" 
+        android:layout_below="@+id/date1"
+        android:layout_toRightOf="@+id/item_icon"
+       android:layout_marginLeft="20dp"
+
+        />  
+       
+      <TextView
+        android:id="@+id/item_attrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="attrib" 
+        android:textSize="15dp"
+        android:layout_below="@+id/date1"
+        android:layout_toRightOf="@+id/size"
+       android:layout_marginLeft="45dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        />
+    
+    <TextView
+        android:id="@+id/item_txtCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="25dp"
+        android:text="C"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12dp" />
+ 
+    <ImageView
+        android:id="@+id/last_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lastnote"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        />
+
+
+</RelativeLayout>

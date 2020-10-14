@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <item android:id="@+id/rotateright"
+		android:icon="@drawable/rotateright72x72"
+		android:orderInCategory="100"
+        android:showAsAction="never"
+		android:title="Rotate" 
+		/>
+    
+    
+    <item android:id="@+id/fullscreen"
+		android:icon="@drawable/fullscreen1"
+		android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+		android:title="full screen" 
+		/>
+    
+    <item android:id="@+id/reload"
+		android:icon="@drawable/reload1"
+		android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+		android:title="reload" 
+		/>
+    
+    
+     <item android:id="@+id/enhance"
+		android:icon="@drawable/imageenhancer1"
+		android:orderInCategory="103"
+        android:showAsAction="never"
+		android:title="enhance" 
+		/>   
+ 
+          <item android:id="@+id/savepdf"
+		android:icon="@drawable/pdf1"
+		android:orderInCategory="104"
+        android:showAsAction="never"
+		android:title="save pdf" 
+		/>   
+     
+                   <item android:id="@+id/nextpage"
+		android:icon="@drawable/nxtpage"
+		android:orderInCategory="105"
+        android:showAsAction="never"
+		android:title="next page" 
+		/>   
+		         <item android:id="@+id/previouspage"
+		android:icon="@drawable/prvpage"
+		android:orderInCategory="106"
+        android:showAsAction="never"
+		android:title="previous page" 
+		/>   
+          
+          
+ 	<item android:id="@+id/copyclip"
+		android:icon="@drawable/copyclip"
+		android:orderInCategory="107"
+        android:showAsAction="never"
+		android:title="copy clip" 
+		/>         
+
+ 	       <item android:id="@+id/showexif"
+		android:icon="@drawable/exif"
+		android:title="EXIF data"
+		android:orderInCategory="109"
+        android:showAsAction="never" 
+		/>
+         
+ 	
+	<item android:id="@+id/exit"
+		android:icon="@drawable/exitprogram"
+		android:orderInCategory="111"
+        android:showAsAction="never"
+		android:title="Exit program" 
+		/>
+
+</menu>
+	

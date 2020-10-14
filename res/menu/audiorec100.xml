@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.listactcust1.MainActivity" >
+
+	    <item
+        android:id="@+id/set_3GPP"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="set_3GPP"/>
+    
+        <item
+        android:id="@+id/set_MPEG4"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="set_MPEG4"/>
+        
+        <item
+        android:id="@+id/set_3GPPAMR"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="set_3GPPAMR"/>
+    
+            <item
+        android:id="@+id/show"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="show audio"/>
+    
+    
+
+</menu>

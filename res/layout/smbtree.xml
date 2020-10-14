@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.sambashare2.MainActivitySambaShare2" >
+
+       
+   
+       
+       
+       
+       
+       
+       
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        >
+ 
+        <EditText
+        android:id="@+id/smbtreeuser1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp" 
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"    
+         android:layout_gravity="bottom"    
+        android:hint="User name"       
+        android:textSize="18dp"
+        android:layout_weight="1"
+        /> 
+        
+        
+        <Button
+        android:id="@+id/smbtreeback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"    
+        android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+        android:layout_marginBottom="2dp"        
+        android:text="back"       
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        />
+        
+    </LinearLayout>      
+
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        >
+              <EditText
+        android:id="@+id/smbtreepassword1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:hint="User password"       
+        android:textSize="18dp"
+        android:layout_weight="0.93"
+        />
+  
+         <Button
+        android:id="@+id/smbdummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:hint="Ente"       
+        android:textSize="18dp"
+        android:layout_weight="1.07"
+        />
+  
+              
+              
+   </LinearLayout>                 
+              
+              
+              
+              
+    <ListView       
+        android:id="@+id/smbtree1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+         />
+
+</LinearLayout>

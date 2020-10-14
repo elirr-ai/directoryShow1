@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mp3songlistcreator.MP3SongListCreate" >
+    
+    
+    
+        <item
+        android:id="@+id/clear"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="clear"
+        />
+        
+                <item
+        android:id="@+id/musicon"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+        android:title="musicon"
+        />
+                
+                        <item
+        android:id="@+id/musicoff"
+        android:orderInCategory="104"
+        android:showAsAction="ifRoom"
+        android:title="musicoff"
+        />
+                        
+         
+                        
+  
+                        
+                                        <item
+        android:id="@+id/export1"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="export"
+        />
+                
+                        <item
+        android:id="@+id/import1"
+        android:orderInCategory="108"
+        android:showAsAction="never"
+        android:title="import"
+        />
+                        
+                        
+                        
+
+</menu>

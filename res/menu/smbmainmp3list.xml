@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/goup"
+		android:icon="@drawable/directoryup64"
+		android:orderInCategory="103"
+        android:showAsAction="ifRoom"
+		android:title="Go up" 
+		/>
+    
+	<item android:id="@+id/go"
+		android:icon="@drawable/go10064"
+		android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+		android:title="Go" 
+    
+    />
+    
+	
+	
+	<item android:id="@+id/refresh"
+		android:icon="@drawable/refresh100"
+		android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+		android:title="RefreshGo" 
+    
+    />
+	
+		
+		<item android:id="@+id/sort"
+        android:orderInCategory="103"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/sort"
+        android:title="Sort"     >
+
+        <menu 
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" 
+            >
+           
+            <item android:id="@+id/SortTitleAsc"
+                android:orderInCategory="300"
+        android:showAsAction="never"
+		android:icon="@drawable/sortaz"
+		android:title="Sort By Title Asc" 
+		/>
+	
+			<item android:id="@+id/SortTitleDsc"
+			    android:orderInCategory="301"
+        android:showAsAction="never"
+		android:icon="@drawable/sortza"
+		android:title="Sort By Title Dsc" 
+		/>
+	
+		    <item android:id="@+id/SortDateAsc"
+			         android:orderInCategory="302"
+        android:showAsAction="never"
+		android:icon="@drawable/sorttimeh"
+		android:title="Sort By Date Asc" 
+		/>
+	
+			<item android:id="@+id/SortDateDsc"
+			    android:orderInCategory="303"
+        android:showAsAction="never"
+		android:icon="@drawable/sorttimel"
+		android:title="Sort By Date Dsc" 
+		/>
+			
+			    <item android:id="@+id/SortSizeAsc"
+			         android:orderInCategory="304"
+        android:showAsAction="never"
+		android:icon="@drawable/sorttimeh"
+		android:title="Sort By Size Asc" 
+		/>
+	
+			<item android:id="@+id/SortSizeDsc"
+			    android:orderInCategory="305"
+        android:showAsAction="never"
+		android:icon="@drawable/sorttimel"
+		android:title="Sort By Size Dsc" 
+		/>
+				
+        </menu>
+    </item>
+	
+	
+	
+	
+	
+    
+    <item android:id="@+id/copyrt"
+		android:icon="@drawable/copyright"
+		android:orderInCategory="107"
+        android:showAsAction="never"
+		android:title="Copyright" 
+		/>
+    
+	<item android:id="@+id/about"
+		android:icon="@drawable/help"
+		android:orderInCategory="106"
+        android:showAsAction="never"
+		android:title="about" 
+		/>
+	<item android:id="@+id/exit"
+		android:icon="@drawable/exitprogram"
+		android:orderInCategory="105"
+        android:showAsAction="never"
+		android:title="Exit program" 
+		/>
+	<item android:id="@+id/rec1"
+		android:icon="@drawable/recordmic"
+		android:orderInCategory="899"
+        android:showAsAction="ifRoom"
+		android:title="record" 
+    
+    />
+	
+	<item android:id="@+id/pdf"
+		android:icon="@drawable/pdf1"
+		android:orderInCategory="1905"
+        android:showAsAction="never"
+		android:title="pdf" 
+		/>
+	
+		<item android:id="@+id/setemail"
+		android:icon="@drawable/setemail1"
+		android:orderInCategory="1985"
+        android:showAsAction="never"
+		android:title="Set Email" 
+		/>
+	
+				<item android:id="@+id/device"
+		android:icon="@drawable/device"
+		android:orderInCategory="1995"
+        android:showAsAction="never"
+		android:title="device" 
+		/>
+	     
+	            <item android:id="@+id/getsmb"        
+        android:orderInCategory="1999"
+        android:showAsAction="never"
+        android:title="get SMB" 
+        />
+	     
+	     
+	     
+</menu>
+	

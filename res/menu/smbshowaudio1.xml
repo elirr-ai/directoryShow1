@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+		/>
+    
+	<item android:id="@+id/exit"
+		android:icon="@drawable/exitprogram"
+		android:orderInCategory="107"
+        android:showAsAction="never"
+		android:title="Exit program" 
+		/>
+
+		<item android:id="@+id/shuffleYes"
+		android:icon="@drawable/shuffle100"
+		android:orderInCategory="108"
+        android:showAsAction="never"
+		android:title="Shuffle YES" 
+		/>
+	
+		<item android:id="@+id/shuffleNo"
+		android:icon="@drawable/shuffle101"
+		android:orderInCategory="109"
+        android:showAsAction="never"
+		android:title="Shuffle NO" 
+		/>
+		
+				<item android:id="@+id/showlyrics"
+		android:icon="@drawable/songlyrics70x75"
+		android:orderInCategory="179"
+        android:showAsAction="never"
+		android:title="Show lyrics" 
+		/>
+				
+				
+		 <item android:id="@+id/test"
+ 
+        android:orderInCategory="181"
+        android:showAsAction="never"
+        android:title="test" 
+        />
+				                
+				                
+				                
+				                
+		
+</menu>
+	

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    
+		/>
+    
+	<item android:id="@+id/show"
+		android:icon="@drawable/info1"
+		android:orderInCategory="106"
+        android:showAsAction="ifRoom"
+		android:title="property" 
+		/>	
+	
+		<item android:id="@+id/full"
+		android:icon="@drawable/fullscreen15"
+		android:orderInCategory="107"
+        android:showAsAction="ifRoom"
+		android:title="full" 
+		/>	
+	
+		<item android:id="@+id/portrait"
+		android:icon="@drawable/portrait"
+		android:orderInCategory="190"
+        android:showAsAction="never"
+		android:title="portrait" 
+		/>
+			
+		<item android:id="@+id/landscape"
+		android:icon="@drawable/landscape"
+		android:orderInCategory="193"
+        android:showAsAction="never"
+		android:title="landscape" 
+		/>
+		
+		
+		
+		
+		
+	<item android:id="@+id/exit"
+		android:icon="@drawable/exitprogram"
+		android:orderInCategory="198"
+        android:showAsAction="never"
+		android:title="Exit program" 
+		/>
+
+</menu>
+	

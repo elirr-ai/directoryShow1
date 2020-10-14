@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Enter file name to save"
+        
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    
+        <EditText
+        android:id="@+id/dialog_edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="File name to save"
+        
+       android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_btn_yes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_weight="1"
+             android:textSize="24dp"
+            />
+
+        <Button
+            android:id="@+id/dialog_btn_no"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:text="Cancel"
+            android:layout_weight="1"
+             android:textSize="24dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

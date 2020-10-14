@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bitmapenhancement.BitmapEnhancment1" >
+
+         <View
+    android:id="@+id/vv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    						 />     
+    
+    
+      <TextView
+        android:id="@+id/textView1"
+       android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:textStyle="bold"
+       	android:textSize="23dp"
+		android:textColor="#3f51b5"
+    	android:text="00:00.000" 
+        />
+    
+            <ProgressBar
+        android:id="@+id/pb1"
+       android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+            
+   <ImageView
+        android:id="@+id/iv2"
+     android:layout_alignParentTop="true"
+        android:layout_width="50dp"
+         android:layout_height="50dp"
+   android:layout_toRightOf="@+id/textView1"
+         /> 
+
+            
+            
+            
+            <Spinner
+      android:id="@+id/spinner"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:layout_alignParentTop="true"
+      android:layout_toRightOf="@+id/iv2"
+      android:layout_marginLeft="0dp"
+      android:prompt="@string/spinner_title"/>
+       
+ 
+            
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_below="@+id/spinner"
+    android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+   
+         />
+
+</RelativeLayout>

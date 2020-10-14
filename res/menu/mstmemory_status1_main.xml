@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memorystatus1.MemoryStatus1MainActivity" >
+
+       <item
+        android:id="@+id/refresh"
+        android:orderInCategory="102"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/refreshi"
+        android:title="refresh"/>
+       
+             <item
+        android:id="@+id/fselect"
+        android:orderInCategory="104"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/memory"
+        android:title="funcion"/>
+    
+                         <item
+        android:id="@+id/savefile"
+        android:orderInCategory="104"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/savefile"
+        android:title="save"/>
+    
+             
+</menu>

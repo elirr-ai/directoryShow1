@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    
+		/>
+    <item android:id="@+id/font"
+		android:icon="@drawable/font1"
+		android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+		android:title="font" 
+		/>
+	
+    <item android:id="@+id/save"
+		android:icon="@drawable/save2"
+		android:orderInCategory="20"
+        android:showAsAction="ifRoom"
+		android:title="Save" 
+		/>
+    
+	
+	<item android:id="@+id/edit"
+		android:icon="@drawable/edit200"
+		android:orderInCategory="30"
+        android:showAsAction="ifRoom"
+		android:title="Edit" 
+		/>
+	
+		<item android:id="@+id/pdf"
+		android:icon="@drawable/pdf1"
+		android:orderInCategory="31"
+        android:showAsAction="ifRoom"
+		android:title="Export Pdf" 
+		/>
+		
+		      <item android:id="@+id/pretty"
+        android:icon="@drawable/pretty1"
+        android:orderInCategory="37"
+        android:showAsAction="never"
+        android:title="pretty" 
+        />
+	
+	<item android:id="@+id/exit"
+		android:icon="@drawable/exitprogram"
+		android:orderInCategory="40"
+        android:showAsAction="ifRoom"
+		android:title="Exit program" 
+		/>
+
+</menu>
+	

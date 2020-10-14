@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+    <item android:id="@+id/nextpage"
+		android:icon="@drawable/nxtpage"
+		android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+		android:title="next" 
+		/>
+    
+	<item android:id="@+id/prevpage"
+		android:icon="@drawable/prvpage"
+		android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+		android:title="prev" 
+		/>
+	
+	<item android:id="@+id/grid"
+		android:icon="@drawable/grid1"
+		android:orderInCategory="105"
+        android:showAsAction="ifRoom"
+		android:title="Set grid" 
+		/>
+	
+	<item android:id="@+id/fullimage1"
+		android:icon="@drawable/fullimage"
+		android:orderInCategory="106"
+        android:showAsAction="ifRoom"
+		android:title="Full image" 
+		/>
+	
+	<item android:id="@+id/sort"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/sort"
+        android:title="Sort"     >
+
+        <menu 
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:HTMLCode="http://schemas.android.com/apk/res-auto" 
+            >
+           
+            <item android:id="@+id/SortTitleAsc"
+                android:orderInCategory="300"
+        android:showAsAction="never"
+		android:icon="@drawable/sortaz"
+		android:title="Sort By Title Asc" 
+		/>
+	
+			<item android:id="@+id/SortTitleDsc"
+			    android:orderInCategory="300"
+        android:showAsAction="never"
+		android:icon="@drawable/sortza"
+		android:title="Sort By Title Dsc" 
+		/>
+	
+			
+		
+			     <item android:id="@+id/SortDateAsc"
+			         android:orderInCategory="300"
+        android:showAsAction="never"
+		android:icon="@drawable/sorttimeh"
+		android:title="Sort By Date Asc" 
+		/>
+	
+			<item android:id="@+id/SortDateDsc"
+			    android:orderInCategory="300"
+        android:showAsAction="never"
+		android:icon="@drawable/sorttimel"
+		android:title="Sort By Date Dsc" 
+		/>
+			
+			
+				
+        </menu>
+    </item>
+	
+	
+	<item android:id="@+id/exit"
+		android:icon="@drawable/exitprogram"
+		android:orderInCategory="107"
+        android:showAsAction="never"
+		android:title="Exit program" 
+		/>
+
+</menu>
+	

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@android:drawable/ic_delete"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+       	android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="zxcv"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/image"/>
+
+            <Spinner
+      android:id="@+id/spinnerCOLOR"
+      android:layout_width="150dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="20dp"
+      android:layout_below="@id/text"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="20dp"
+      android:prompt="@string/spinner_title"/>   
+    
+            <Spinner
+      android:id="@+id/spinnerSIZE"
+      android:layout_width="150dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="20dp"
+      android:layout_below="@id/text"
+      android:layout_toRightOf="@id/spinnerCOLOR"
+      android:layout_marginLeft="50dp"
+      android:prompt="@string/spinner_title"/>   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <EditText
+        android:id="@+id/te"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/spinnerCOLOR"
+        />
+    
+     <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=" Ok "
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/te"
+        />
+      
+
+</RelativeLayout>

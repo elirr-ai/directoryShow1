@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+    <!--
+      this is for 8 inch screen
+      
+      -->
+          <View
+    android:id="@+id/vv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    						 />           
+           
+       <TextView
+    android:id="@+id/enterguess"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+       android:text="" 
+    
+    						 />
+     
+       <Button
+    android:id="@+id/dir_back"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="0dp"  
+    android:layout_marginLeft="0dp"
+    android:layout_below="@+id/enterguess"
+     />
+       
+       
+       
+       
+<Button
+    android:id="@+id/dir_up"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="0dp" 
+    android:layout_toRightOf="@+id/dir_back"
+    android:layout_marginLeft="0dp"
+    android:layout_below="@+id/enterguess"
+     />
+
+<Button
+    android:id="@+id/go"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="0dp"
+    android:layout_toRightOf="@+id/dir_up"
+    android:layout_marginStart="0dp"
+    android:layout_below="@+id/enterguess"
+    />
+
+<Button
+    android:id="@+id/new1000"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="0dp"
+    android:layout_toRightOf="@+id/go"
+    android:layout_marginStart="0dp"
+    android:layout_below="@+id/enterguess"
+     />
+
+<Button
+    android:id="@+id/paste1000"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="0dp"
+    android:layout_toRightOf="@+id/new1000"
+    android:layout_marginStart="0dp"
+    android:layout_below="@+id/enterguess"
+     />
+
+
+
+
+
+<Button
+    android:id="@+id/favor1000"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="0dp"
+    android:layout_toRightOf="@+id/paste1000"
+    android:layout_marginStart="0dp"
+    android:layout_below="@+id/enterguess"
+    
+     />
+
+
+
+
+
+<Button
+    android:id="@+id/exit1000"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="0dp"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="0dp"
+    android:layout_below="@+id/enterguess"
+     />
+
+
+<ListView
+    android:id="@+id/listView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/dir_up"
+     android:layout_marginTop="10dp"
+     android:layout_alignParentStart="true"
+      
+     >
+</ListView>
+
+
+</RelativeLayout>
+
+
+
